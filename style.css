@@ -1,3 +1,28 @@
+html,
+body,
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 10px;
+}
 body{
-    background-color: red;
+    background-color: #00abf6;
+}
+.box{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    
+}
+.img{
+    border: solid 1rem rgb(41, 102, 131);
+    border-radius: 1rem;
+    margin: 1rem auto;
+    justify-content: space-around;
+    padding: 2rem;
+}
+img{
+    width: 50rem;
+    height: 40rem;
 }
