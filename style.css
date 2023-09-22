@@ -7,7 +7,7 @@ body,
   font-size: 10px;
 }
 body {
-  background-color: #00abf6;
+  background-color:#ebe8f4;
 }
 .box {
   display: flex;
@@ -15,35 +15,37 @@ body {
   text-align: center;
   margin: 10rem auto;
   width: 80vw;
-  background-color: aqua;
+  background-color:#554580;
   border-radius: 2rem;
   justify-content: space-around;
+  padding: 2rem;
 }
-.img {
+.card {
   border: solid 1rem rgb(41, 102, 131);
   border-radius: 1rem;
-  background-color: aquamarine;
-  margin: 1rem auto;
+  background-color: #c9cacd;
+  margin: 2rem auto;
   padding: 2rem;
-  width: 27%;
+  width: 20vw;
   height: auto;
   justify-content: space-around;
+  box-shadow: 2rem 2rem 2rem rgb(0, 0, 0);
 }
 img{
-    width: 100%;
-    height: 20rem;
+  width: 25rem;
+  height: 30rem;
 }
 h2 {
   font-size: 3rem;
   padding: 2rem;
-  background-color: wheat;
+  background-color: #7a4f7b;
   
 }
 .header{
     font-size: 3rem;
     text-align: center;
     position: fixed;
-    background-color: bisque;
+    background-color: #ff97ca;
     width: 100%;
     padding: 2rem;
     top: 0;
