@@ -7,7 +7,7 @@ body,
   font-size: 10px;
 }
 body {
-  background-color:#ebe8f4;
+  background-color:rgb(235, 232, 244);
 }
 .box {
   display: flex;
@@ -15,7 +15,7 @@ body {
   text-align: center;
   margin: 10rem auto;
   width: 80vw;
-  background-color:#554580;
+  background-color:rgb(85, 69, 128);
   border-radius: 2rem;
   justify-content: space-around;
   padding: 2rem;
@@ -23,32 +23,31 @@ body {
 .card {
   border: solid 1rem rgb(41, 102, 131);
   border-radius: 1rem;
-  background-color: #c9cacd;
+  background-color: rgb(201, 202, 205);
   margin: 2rem auto;
-  padding: 2rem;
-  width: 20vw;
+  width: 27%;
   height: auto;
-  justify-content: space-around;
   box-shadow: 2rem 2rem 2rem rgb(0, 0, 0);
 }
-img{
-  width: 25rem;
-  height: 30rem;
-}
-h2 {
-  font-size: 3rem;
+
+.text {
+  font-size: 2rem;
   padding: 2rem;
-  background-color: #7a4f7b;
+  background-color: rgb(122, 79, 123);
   
 }
 .header{
     font-size: 3rem;
     text-align: center;
     position: fixed;
-    background-color: #ff97ca;
+    background-color: rgb(255, 151, 202);
     width: 100%;
     padding: 2rem;
     top: 0;
     left: 0;
 
+}
+img{
+  width: 100%;
+  height: 100%;
 }
