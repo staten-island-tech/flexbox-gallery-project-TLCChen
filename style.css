@@ -30,7 +30,23 @@ body {
   height: auto;
   box-shadow: 2rem 2rem 2rem rgb(0, 0, 0);
 }
+@media screen and (max-width: 100rem) {
+  .card{
+    width: 27%;
+  }
+}
 
+@media screen and (max-width: 85rem) {
+  .card{
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 43rem) {
+  .card{
+    width: 100%;
+  }
+}
 .text {
   font-size: 2rem;
   padding: 2rem;
