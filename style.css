@@ -190,7 +190,7 @@ img{
 
 }
   
-}
+
 
 .hover6{
   position: relative;
@@ -203,6 +203,6 @@ img{
   z-index: 99;
   }
 
-.hover6:hover h2{
+/* .hover6:hover h2{
   color: rgb(127, 255, 212);
-}
+} */
